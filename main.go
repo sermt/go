@@ -1,7 +1,14 @@
 package main
 
 import (
-	"example.com/v2/variables"
+	"fmt"
+
+	"github.com/sermt/go/variables"
 )
 
-func main() { variables.MuestroEnteros() }
+func main() {
+	// variables.MuestroEnteros()
+	//variables.RestoVariables()
+	valor, cadena := variables.ConvertirAString(88)
+	fmt.Println(valor, cadena)
+}

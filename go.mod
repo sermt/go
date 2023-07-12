@@ -1,3 +1,3 @@
-module example.com/v2
+module github.com/sermt/go
 
 go 1.20
